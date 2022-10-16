@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #F31C3F; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #F87E92; 
+}
+.logs{
+    max-width: 50%;
+    width: 47.1%;
+    height: 94%;
+    padding: 20px 20px;
+    border: none;
+}
+.brand{
+    font-family: 'Pacifico';
+    color: #F31C3F;
+    -webkit-text-stroke-width: 1px;
+}
+.logs .texts{
+    text-align: center;
+}
+.logs .texts h1, .texts p{
+    font-family: 'Pacifico';
+    position: relative;
+}
+.logs .texts h1{
+    margin-top: 12%;
+    font-size: 2em;
+}
+.logs .texts h1 span{
+    color: #F31C3F;
+    -webkit-text-stroke-width: 1px;
+}
+.logs .texts p{
+    color: #CECECE;
+}
+#login{
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#login .poop input{
+    font-family: 'Pacifico';
+    outline: none;
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid #F87E92;
+    margin-top: 20px;
+}
+#login .poop button{
+    margin-top: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Pacifico';
+    background: none;
+    width: 30%;
+    border-radius: 30px;
+    border: 1px solid #F87E92;
+}
+#login .poop p{
+    text-transform: uppercase;
+    color: #CECECE;
+    font-family: 'Outfit';
+    font-size: 10px;
+    font-weight: bold;
+}
+#login .gogo{
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Pacifico';
+    background: none;
+    width: 30%;
+    border-radius: 30px;
+    border: 1px solid #F87E92;
+}
+#login .gogo img{
+    width: 12px;
+    height: 12px;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+#login .pooi {
+    margin-top: 28px;
+}
+#login .pooi a{
+    color: #F87E92;
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-weight: bolder;
+    font-size: 12px;
+}
+#login .pooi a:hover{
+    color: #FF0000;
+    text-decoration: underline;
+}
+.powers{
+    position: relative;
+    margin-top: 13.6%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 12px;
+    color: #CECECE;
+    font-weight: bolder;
+}
+.powers span{
+    color: #172141;
+}
+.corn{
+    max-width: 50%;
+    position: absolute;
+    width: 49.7%;
+    height: 98.8%;
+    border: none;
+    /* border: 1px solid red; */
+    left: 50.3%;
+    top: 0;
+}
+.corn img{
+    width: 100%;
+    height: 100.6%;
+    z-index: -1;
+}
+.corn .values{
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 28px;
+    font-family: 'Outfit';
+    font-weight: bolder;
+    color: #CECECE;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    width: 90%;
+}
+.corn .founders{
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    font-size: 28px;
+    font-family: 'Outfit';
+    font-weight: bolder;
+    color: #CECECE;
+    opacity: 0.8;
+    letter-spacing: 3px;
+    width: 90%;
+}
+.corn .hello{
+    z-index: 1;
+    letter-spacing: 4px;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    color: #F87E92;
+    opacity: 0.5;
+    backdrop-filter: blur(3px);
+    font-family: 'sweet purple';
+    font-size: 200px;
+    -webkit-background-clip: text;
+}
